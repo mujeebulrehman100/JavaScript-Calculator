@@ -1,9 +1,5 @@
-App.js
-let display;
+const display = document.getElementById("display");
 
-window.onload = function () {
-  display = document.getElementById("display");
-};
 function appendValue(value) {
   display.value += value;
 }
