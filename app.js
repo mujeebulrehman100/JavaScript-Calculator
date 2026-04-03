@@ -1,4 +1,8 @@
-const display = document.getElementById("display");
+let display;
+
+window.onload = function () {
+  display = document.getElementById("display");
+};
 
 function appendValue(value) {
   display.value += value;
